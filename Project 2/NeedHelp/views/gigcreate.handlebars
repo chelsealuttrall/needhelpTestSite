@@ -1,0 +1,206 @@
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand" href="/">
+            <img src="/images/needhelpfulllogo.png" width="200" height="45" class="d-inline-block align-center" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="gig-create-body">
+
+
+
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center text-black">
+                <div class="col-10 col-md-8 col-lg-6" id="form-bc">
+                    <!-- Form -->
+                    <form class="form-example" action="" method="post">
+                        <h1>Create a Help Request</h1>
+                        <hr>
+                        <p class="description">Tell us about the task, project or activity you need help with</p>
+                        <!-- Input fields -->
+
+                        <div class="form-group row">
+
+                            <div class="col-sm-12">
+                                <select id="category" class="form-control">
+                                    <option selected>Help Category</option>
+                                <option value="HR">Home Repair</option>
+                                <option value="WD">Web Development</option>
+                                <option value="INT">Installation</option>
+                                <option value="MOV">Moving</option>
+                                <option value="RES">Resume Help</option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="form-group row">
+
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="gig-title" placeholder="Request Title">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="description" placeholder="Request Description">
+                            </div>
+                        </div>
+
+                    
+
+                       
+
+                        <div class="form-row">
+                         
+                         
+                         
+
+                            <div class="form-group col-md-8">
+
+                                <select id="time" class="form-control">
+                                    <option selected>Estimated Time</option>
+                                    <option value="One">Under 1 hour</option>
+                                    <option value="Two">1 - 2 hours</option>
+                                    <option value="Three">2 -3 hours</option>
+                                    <option value="Four">3 or more hours</option>
+                                   
+                                  </select>
+                            </div>
+
+                            <div class="form-group col-md-4">
+
+                                <input type="money" class="form-control" id="inputBudget" placeholder="Budget">
+                            </div>
+                        </div>
+
+
+
+
+                        <button type="button" class="btn btn-primary btn-md btn-block" id="help-btn">Create Help Request</button>
+                        <!-- End input fields -->
+
+                    </form>
+                    <!-- Form end -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://teamdaneremix-project2.herokuapp.com/"> NeedHelp, Inc.</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+     <script src="/js/create.js"></script>
